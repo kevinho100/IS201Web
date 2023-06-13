@@ -1,0 +1,61 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #1d6086 ; 
+    background-image: url(../images/bg2.jpg);
+}
+
+h1{
+    font-size: 13px;
+	color: darkgray
+}
+
+li{
+    font-size: 14px;
+    font-style: italic;
+    font-weight: normal;
+}
+
+a{
+    color: rgb(223, 150, 41);
+    text-decoration: none;
+}
+a:hover {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+a:visited{
+    color: gray;
+}
+
+.underline {
+    text-decoration: underline;
+}
+.bold {
+    font-weight: bold;
+}
+
+.homepgv{
+    background-image: url('../images/santiago.jpeg');
+}
+
+.box1{
+    border: solid 1px rgb(223, 150, 41);
+    border-bottom: dotted 2px gray;
+}
+
+.box2{
+    padding: 5px;
+}
+
+.box3{
+    margin: 50px;
+}
+
+
+.box4{
+    padding-left: 10px;
+    margin: 100px;
+    border-right: solid 50px rgb(223, 150, 41);
+}

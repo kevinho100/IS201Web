@@ -1,0 +1,44 @@
+body{
+    background-image: url(../images/bg2.jpg);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.common{
+    background-image: url(../images/backgroundtableau.jpg);
+    border: solid 8px white;
+   
+}
+.header{
+    top: 5px;
+    left: 5px;
+    right: 5px;
+    height: 100px;
+    z-index: 2;
+    border-bottom: solid 1px rgb(75, 75, 75);
+	background-color: rgba(47, 23, 15, 0.9)
+}
+
+.mainbody{
+    top: 114px;
+    bottom: 64px;
+    left: 114px;
+    right: 114px;
+
+}
+
+.footer{
+    bottom: 5px;
+    height: 10px;
+    left: 5px;
+    right: 5px;
+    font-size: 8px;
+    color: #000000;
+    text-align: center;
+    position: fixed
+}
+
+.sub{
+    top:100px;
+	height: 100px
+}
+

@@ -1,0 +1,58 @@
+body {
+    background-color: #ffffff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.common {
+    background-color: #cccccc;
+    border: solid 2px white;
+    position: absolute;
+}
+.header {
+    top: 5px;
+    left: 5px;
+    right: 5px;
+    height: 100 px;
+    z-index: 2;
+    border-bottom: solid 1px #555555;
+}
+.leftmenu {
+    top: 120px;
+    left: 8px;
+    width: 100px;
+    bottom: 64px;
+    z-index: 1;
+    padding-top: 40px;
+    border-right: solid 1px #555555;
+}
+.mainbody { 
+    top: 144px;
+    bottom: 64px;
+    left: 114px;
+    right: 130px;
+    padding-right: 5px;
+}
+.rightmenu {
+    top: 144px;
+    bottom: 64px;
+    right: 20px;
+    width: 100px;
+    border-left: solid 1px #555555;
+    padding-left: 5px ;
+
+}
+
+.subheader { 
+    float: right;
+}
+.bold {
+    font-weight: bold;
+}
+.underline {
+    text-decoration: underline;
+}
+.blue {
+    color: rgb(44, 44, 139);
+}
+.text {
+    font-family: 'Times New Roman', Times, serif;
+}
